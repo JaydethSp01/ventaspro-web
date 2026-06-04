@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { login, DEFAULT_ADMIN, seedAuth } from "@/lib/auth";
+import { GenerativePattern } from "@/components/ui/GenerativePattern";
 
 /** Pantalla de login branded (gradiente del color de marca). Muestra las
  *  credenciales del superadmin sembrado para que el demo entre de una. */
